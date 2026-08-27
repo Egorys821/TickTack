@@ -1,0 +1,14 @@
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\bin\Debug\net10.0\TicTakToe.exe
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\bin\Debug\net10.0\TicTakToe.deps.json
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\bin\Debug\net10.0\TicTakToe.runtimeconfig.json
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\bin\Debug\net10.0\TicTakToe.dll
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\bin\Debug\net10.0\TicTakToe.pdb
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\TicTakToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\TicTakToe.AssemblyInfoInputs.cache
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\TicTakToe.AssemblyInfo.cs
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\TicTakToe.csproj.CoreCompileInputs.cache
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\TicTakToe.dll
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\refint\TicTakToe.dll
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\TicTakToe.pdb
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\TicTakToe.genruntimeconfig.cache
+C:\Users\cekun\Documents\TicTakToe\TicTakToe\obj\Debug\net10.0\ref\TicTakToe.dll

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11819.183 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe.csproj", "{2818B3D4-6461-4886-8396-91C0AA721A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTakToeLib", "..\..\..\Documents\TicTakToe\TicTakToe\TicTakToeLib.csproj", "{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		ExportDebug|Any CPU = ExportDebug|Any CPU
+		ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2818B3D4-6461-4886-8396-91C0AA721A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2818B3D4-6461-4886-8396-91C0AA721A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2818B3D4-6461-4886-8396-91C0AA721A00}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{2818B3D4-6461-4886-8396-91C0AA721A00}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{2818B3D4-6461-4886-8396-91C0AA721A00}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{2818B3D4-6461-4886-8396-91C0AA721A00}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.ExportDebug|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.ExportDebug|Any CPU.Build.0 = Release|Any CPU
+		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFD17397-C0CB-4731-8E35-440F4FF7F6D1}
+	EndGlobalSection
+EndGlobal

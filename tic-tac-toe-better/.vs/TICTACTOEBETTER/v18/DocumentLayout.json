@@ -1,0 +1,352 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|c:\\users\\cekun\\onedrive\\documents\\tic-tac-toe-better\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|solutionrelative:gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|c:\\users\\cekun\\onedrive\\documents\\tic-tac-toe-better\\gamecell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|solutionrelative:gamecell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|c:\\users\\cekun\\onedrive\\documents\\tic-tac-toe-better\\mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|solutionrelative:mediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|c:\\users\\cekun\\onedrive\\documents\\tic-tac-toe-better\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|c:\\users\\cekun\\onedrive\\documents\\tic-tac-toe-better\\variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|solutionrelative:variables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\gamebuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|c:\\users\\cekun\\onedrive\\documents\\tic-tac-toe-better\\hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|solutionrelative:hud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|c:\\users\\cekun\\onedrive\\documents\\tic-tac-toe-better\\gamepaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|solutionrelative:gamepaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|c:\\users\\cekun\\onedrive\\documents\\tic-tac-toe-better\\tictactoebetter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}|TicTacToeBetter.csproj|solutionrelative:tictactoebetter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}|..\\TestGame\\TestGame.csproj|c:\\users\\cekun\\onedrive\\documents\\testgame\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}|..\\TestGame\\TestGame.csproj|c:\\users\\cekun\\onedrive\\documents\\testgame\\testgame.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\tictaktoe.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\structs\\coordinate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\observerinterfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}|..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj|c:\\users\\cekun\\documents\\tictaktoe\\tictaktoe\\structs\\gamereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\OneDrive\\Documents\\TestGame\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\TestGame\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\cekun\\OneDrive\\Documents\\TestGame\\UnitTest1.cs",
+              "RelativeToolTip": "..\\TestGame\\UnitTest1.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAlwD4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T15:51:23.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestGame.csproj",
+              "DocumentMoniker": "C:\\USERS\\CEKUN\\ONEDRIVE\\DOCUMENTS\\TestGame\\TestGame.csproj",
+              "RelativeDocumentMoniker": "..\\TestGame\\TestGame.csproj",
+              "ToolTip": "C:\\USERS\\CEKUN\\ONEDRIVE\\DOCUMENTS\\TestGame\\TestGame.csproj",
+              "RelativeToolTip": "..\\TestGame\\TestGame.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-27T15:52:40.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T14:12:11.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Mediator.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\Mediator.cs",
+              "RelativeDocumentMoniker": "Mediator.cs",
+              "ToolTip": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\Mediator.cs",
+              "RelativeToolTip": "Mediator.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T15:56:24.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\GameBuilder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\GameBuilder.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\GameBuilder.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\GameBuilder.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:47:07.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Variables.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\Variables.cs",
+              "RelativeDocumentMoniker": "Variables.cs",
+              "ToolTip": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\Variables.cs",
+              "RelativeToolTip": "Variables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:39:09.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameScene.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\GameScene.cs",
+              "RelativeDocumentMoniker": "GameScene.cs",
+              "ToolTip": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\GameScene.cs",
+              "RelativeToolTip": "GameScene.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAnwDoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T16:28:20.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Program.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T15:25:14.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Game.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Game.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Game.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Game.cs",
+              "ViewState": "AgIAACMBAAAAAAAAAAAAAC0BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T14:46:42.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameCell.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\GameCell.cs",
+              "RelativeDocumentMoniker": "GameCell.cs",
+              "ToolTip": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\GameCell.cs",
+              "RelativeToolTip": "GameCell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T15:47:38.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TicTakToe.csproj",
+              "DocumentMoniker": "C:\\USERS\\CEKUN\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj",
+              "ToolTip": "C:\\USERS\\CEKUN\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\TicTakToe.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-04T13:12:21.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TicTacToeBetter.csproj",
+              "DocumentMoniker": "C:\\USERS\\CEKUN\\ONEDRIVE\\DOCUMENTS\\TIC-TAC-TOE-BETTER\\TicTacToeBetter.csproj",
+              "RelativeDocumentMoniker": "TicTacToeBetter.csproj",
+              "ToolTip": "C:\\USERS\\CEKUN\\ONEDRIVE\\DOCUMENTS\\TIC-TAC-TOE-BETTER\\TicTacToeBetter.csproj",
+              "RelativeToolTip": "TicTacToeBetter.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-07T15:48:31.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Player.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Player.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Player.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Player.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:47:13.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Hud.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\Hud.cs",
+              "RelativeDocumentMoniker": "Hud.cs",
+              "ToolTip": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\Hud.cs",
+              "RelativeToolTip": "Hud.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwCwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T14:54:31.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GamePaths.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\GamePaths.cs",
+              "RelativeDocumentMoniker": "GamePaths.cs",
+              "ToolTip": "C:\\Users\\cekun\\OneDrive\\Documents\\tic-tac-toe-better\\GamePaths.cs",
+              "RelativeToolTip": "GamePaths.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:39:53.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Coordinate.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Structs\\Coordinate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Structs\\Coordinate.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Structs\\Coordinate.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Structs\\Coordinate.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAawDEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:46:59.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Enums.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Enums.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Enums.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:47:02.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ObserverInterfaces.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\ObserverInterfaces.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\ObserverInterfaces.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\ObserverInterfaces.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\ObserverInterfaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T15:08:46.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Interfaces.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Interfaces.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Interfaces.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Interfaces.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Interfaces.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T15:47:04.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GameReport.cs",
+              "DocumentMoniker": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Structs\\GameReport.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Structs\\GameReport.cs",
+              "ToolTip": "C:\\Users\\cekun\\Documents\\TicTakToe\\TicTakToe\\Structs\\GameReport.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\TicTakToe\\TicTakToe\\Structs\\GameReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T08:44:32.941Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

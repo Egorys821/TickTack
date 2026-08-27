@@ -1,0 +1,39 @@
+﻿using TicTakToe;
+
+namespace TestGame
+{
+    public class GameScenarios
+    {
+        [Fact]
+        public void SimpleXWin()
+        {
+            // Arrange
+            Player Adam = new Player("Adam", FieldType.X, "Hurray!");
+            Player Beth = new Player("Betheny", FieldType.O, "I am better");
+            
+            Game game = new GameBuilder()
+               .WithPlayer(Adam)
+               .WithPlayer(Beth)
+               .WithInitialFieldSize(5)
+               .WithWinLength(3)
+               .WithFixedFieldSize()
+               .Build();
+
+            //Act
+            game.TryMakeMove(new(0, 0)); // X turn
+            game.TryMakeMove(new(0, 1)); // O turn
+            game.TryMakeMove(new(1, 0)); // X turn
+            game.TryMakeMove(new(0, 2)); // O turn
+            game.TryMakeMove(new(2, 0)); // X turn
+
+            var report = game.GetGameReport(new(2, 0));
+            //Assert
+            //Assert.Equal(WinCondition.X_WON, report.WinCondition);
+
+            Assert.Contains(new Coordinate(0, 0), report.coordinates);
+            Assert.Contains(new Coordinate(1, 0), report.coordinates);
+            Assert.Contains(new Coordinate(2, 0), report.coordinates);
+
+        }
+    }
+}
