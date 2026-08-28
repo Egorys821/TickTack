@@ -5,9 +5,7 @@ VisualStudioVersion = 18.6.11819.183
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeBetter", "TicTacToeBetter.csproj", "{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTakToe", "..\..\..\Documents\TicTakToe\TicTakToe\TicTakToe.csproj", "{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGame", "..\TestGame\TestGame.csproj", "{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTakToe", "..\TicTakToe\TicTakToe\TicTakToe.csproj", "{AB04B170-E022-30CC-04C6-D77FFE506BB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,18 +20,12 @@ Global
 		{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
 		{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
 		{57F35B46-D5F0-4ED8-B194-D954FCCA2EC7}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
-		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.ExportDebug|Any CPU.ActiveCfg = Release|Any CPU
-		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.ExportDebug|Any CPU.Build.0 = Release|Any CPU
-		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
-		{FBC30AE3-0C30-A23A-84DB-39E0CE0B0560}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
-		{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}.ExportDebug|Any CPU.ActiveCfg = Release|Any CPU
-		{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}.ExportDebug|Any CPU.Build.0 = Release|Any CPU
-		{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
-		{ABFE1FA6-9839-45F8-8AD8-BD27E7883F22}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
+		{AB04B170-E022-30CC-04C6-D77FFE506BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB04B170-E022-30CC-04C6-D77FFE506BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB04B170-E022-30CC-04C6-D77FFE506BB7}.ExportDebug|Any CPU.ActiveCfg = Release|Any CPU
+		{AB04B170-E022-30CC-04C6-D77FFE506BB7}.ExportDebug|Any CPU.Build.0 = Release|Any CPU
+		{AB04B170-E022-30CC-04C6-D77FFE506BB7}.ExportRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{AB04B170-E022-30CC-04C6-D77FFE506BB7}.ExportRelease|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
