@@ -4,13 +4,20 @@ using System.Text;
 using TicTacToeBetter;
 using TicTakToe;
 
+/// <summary>
+/// Root node of the game field scene. Builds the <see cref="Game"/>, the grid of
+/// <see cref="GameCell"/> buttons, and the <see cref="Mediator"/> that connects them.
+/// </summary>
 public sealed partial class GameScene : Node
 {
     PackedScene GameCellScene;
+
+    /// <summary>The grid container that hosts one <see cref="GameCell"/> button per field position.</summary>
     public GridContainer Container = null;
     Mediator GameMediator = null;
 
 
+    /// <summary>The heads-up display showing whose turn it is and the end-of-game window.</summary>
     public Hud Hud;
 
     public override void _Ready()
@@ -25,6 +32,11 @@ public sealed partial class GameScene : Node
         CreateNewGame();
     }
 
+    /// <summary>
+    /// Builds a fresh <see cref="Game"/> and <see cref="Mediator"/> from <see cref="Variables"/>,
+    /// clears any existing cell buttons from <see cref="Container"/>, and repopulates it.
+    /// Called on scene start and again when the player chooses "play again".
+    /// </summary>
     public void CreateNewGame()
     {
         Variables.Game = new GameBuilder()

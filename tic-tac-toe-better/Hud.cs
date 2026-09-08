@@ -4,8 +4,13 @@ using System.Diagnostics.CodeAnalysis;
 using TicTacToeBetter;
 using TicTakToe;
 
+/// <summary>
+/// Heads-up display for the game field: shows whose turn it is and, once the game ends,
+/// an end-game window with the result and a "play again" option.
+/// </summary>
 public partial class Hud : Control, IObserver
 {
+    /// <summary>The scene this HUD belongs to, used to start a new game on "play again".</summary>
     public GameScene gameScene;
     private bool added = false;
 	Label CurrentPlayerLabel;
@@ -46,11 +51,15 @@ public partial class Hud : Control, IObserver
         EndGameWindow.Visible = false;
     }
 
+    /// <summary>Displays the end-game window with the given result text.</summary>
+    /// <param name="info">The message to show, e.g. the winner's name or <c>"Draw"</c>.</param>
     public void ShowEndWindow(string info)
 	{
         EndWindowLabel.Text = info;
         EndGameWindow.Visible = true;
     }
+
+    /// <summary>Hides the end-game window without changing its text.</summary>
     public void CloseEndWindow()
     {
         EndGameWindow.Visible = false;
@@ -71,7 +80,8 @@ public partial class Hud : Control, IObserver
 
 
 
-	// Implement IObserver
+	/// <summary>Updates the current-player label whenever the observed <see cref="Game"/> changes.</summary>
+	/// <param name="subject">The subject that changed; only <see cref="Game"/> instances are handled.</param>
 	public void Update(ISubject subject)
 	{
 		if (subject is Game game)

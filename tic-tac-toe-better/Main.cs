@@ -2,6 +2,9 @@ using Godot;
 using System;
 using TicTakToe;
 
+/// <summary>
+/// Main menu scene: collects player names and field settings, then starts the game scene.
+/// </summary>
 public partial class Main : Control
 {
     // Called when the node enters the scene tree for the first time.
@@ -48,6 +51,9 @@ public partial class Main : Control
         GetTree().ChangeSceneToFile(GamePaths.GameScenePath);
     }
 
+    /// <summary>
+    /// Debug helper that logs the entered player names to the Godot and system consoles.
+    /// </summary>
     public void PrintNickNames()
     {
         string name1 = GetNode<LineEdit>("FirstPlayerName").Text;

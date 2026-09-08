@@ -3,16 +3,30 @@ using System.Text;
 
 namespace TicTakToe;
 
+/// <summary>
+/// Holds the state of a tic-tac-toe match and the rules for playing it: making moves,
+/// growing the field, switching turns, and detecting wins or draws. Build one with
+/// <see cref="GameBuilder"/> rather than constructing it directly.
+/// </summary>
 public class Game : ISubject
 {
+    /// <summary>Whether the game has ended, either by a win or a draw. No further moves are accepted once <c>true</c>.</summary>
     public bool IsGameDone { get; private set; } = false;
     private FieldType[,] field;
+
+    /// <summary>The current width of the field, in cells.</summary>
     public int FieldWidth => this.field.GetLength(0);
+
+    /// <summary>The current height of the field, in cells.</summary>
     public int FieldHeight => this.field.GetLength(1);
+
+    /// <summary>The coordinate of the most recently made move.</summary>
     public Coordinate lastPlayed { get; private set; }
     private int winLength { get; set; }
 
     private bool fixedFieldSize;
+
+    /// <summary>The player whose turn it currently is.</summary>
     public Player CurrentPlayer;
     private Player playerOne;
     private Player playerTwo;
@@ -38,6 +52,18 @@ public class Game : ISubject
         return !(c.X >= FieldWidth || c.Y >= FieldHeight || c.X < 0 || c.Y < 0);
     }
 
+    /// <summary>
+    /// Checks whether the move at <paramref name="coordinate"/> won the game for
+    /// <see cref="CurrentPlayer"/>, or whether the field is now full, and sets
+    /// <see cref="IsGameDone"/> accordingly. Call this right after <see cref="TryMakeMove"/>
+    /// succeeds, before <see cref="ChangePlayers"/>, since it evaluates lines through
+    /// <paramref name="coordinate"/> using <see cref="CurrentPlayer"/>'s mark.
+    /// </summary>
+    /// <param name="coordinate">The coordinate of the move that was just made.</param>
+    /// <returns>
+    /// A <see cref="GameReport"/> describing the outcome: a win for <see cref="CurrentPlayer"/>,
+    /// a draw if the field is full, or <see cref="WinCondition.UNKNOWN"/> if the game continues.
+    /// </returns>
     public GameReport GetGameReport(Coordinate coordinate)
     {
         foreach (Coordinate direction in _WinDirections)
@@ -131,6 +157,17 @@ public class Game : ISubject
         IsGameDone = true;
         return new GameReport() { WinCondition = WinCondition.DRAW, coordinates = null };
     }
+    /// <summary>
+    /// Creates a new game. Prefer <see cref="GameBuilder"/> over calling this directly.
+    /// </summary>
+    /// <param name="playerA">The first player to move.</param>
+    /// <param name="playerB">The second player.</param>
+    /// <param name="initialFieldSize">The width and height of the initially square field, in cells. Defaults to 5.</param>
+    /// <param name="winLength">The number of connected marks needed to win. Defaults to 3.</param>
+    /// <param name="fixedFieldSize">
+    /// If <c>true</c>, the field stays this size; if <c>false</c>, it grows whenever a move is
+    /// made on its edge. Defaults to <c>true</c>.
+    /// </param>
     internal Game(Player playerA, Player playerB, int initialFieldSize = 5, int winLength = 3, bool fixedFieldSize = true)
     {
         field = new FieldType[initialFieldSize, initialFieldSize];
@@ -144,6 +181,10 @@ public class Game : ISubject
         this.CurrentPlayer = playerA;
     }
 
+    /// <summary>
+    /// Switches <see cref="CurrentPlayer"/> to the other player and notifies attached
+    /// observers via <see cref="Notify"/>. Call this after a move that did not end the game.
+    /// </summary>
     public void ChangePlayers()
     {
 
@@ -159,6 +200,11 @@ public class Game : ISubject
         Notify();
     }
 
+    /// <summary>
+    /// Renders the field as a text grid for display in a console, with row/column indices
+    /// and <c>■</c>/<c>X</c>/<c>O</c> markers for empty, X, and O cells respectively.
+    /// </summary>
+    /// <returns>A multi-line string representation of the current field.</returns>
     public string GetGameState()
     {
         /*
@@ -260,6 +306,17 @@ public class Game : ISubject
 
     }
 
+    /// <summary>
+    /// Attempts to place <see cref="CurrentPlayer"/>'s mark at <paramref name="c"/>. If the field
+    /// is not fixed-size and the move lands on an edge, the field expands by one cell in that
+    /// direction. This does not switch turns or check for a win; call <see cref="GetGameReport"/>
+    /// and then <see cref="ChangePlayers"/> afterwards.
+    /// </summary>
+    /// <param name="c">The coordinate to play at.</param>
+    /// <returns>
+    /// <c>true</c> if the move was made; <c>false</c> if the game is already done, the
+    /// coordinate is out of bounds, or the cell is already occupied.
+    /// </returns>
     public bool TryMakeMove(Coordinate c)
     {
         if (IsGameDone)
@@ -301,16 +358,19 @@ public class Game : ISubject
         field[coordinate.X, coordinate.Y] = type;
     }
 
+    /// <inheritdoc/>
     public void Attach(IObserver observer)
     {
         Observers.Add(observer);
     }
 
+    /// <inheritdoc/>
     public void Detach(IObserver observer)
     {
         Observers.Remove(observer);
     }
 
+    /// <inheritdoc/>
     public void Notify()
     {
         foreach (var observer in Observers)

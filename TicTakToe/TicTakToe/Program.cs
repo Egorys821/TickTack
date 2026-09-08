@@ -4,8 +4,11 @@ using TicTakToe;
 namespace TicTakToe
 {
 
+    /// <summary>Console entry point that runs a two-player game loop for the tic-tac-toe engine.</summary>
     internal class Program
     {
+        /// <summary>Clears the console and writes <paramref name="s"/> to it, used to redraw the field between turns.</summary>
+        /// <param name="s">The text to display, typically <see cref="Game.GetGameState"/>'s output.</param>
         public static void UpdateDisplay(string s)
         {
             Console.Clear();
