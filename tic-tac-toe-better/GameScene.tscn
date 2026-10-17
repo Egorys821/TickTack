@@ -3,7 +3,6 @@
 [ext_resource type="Script" uid="uid://6jvwpntyn1ex" path="res://GameScene.cs" id="1_eqhe0"]
 [ext_resource type="Theme" uid="uid://cxei06qcalc72" path="res://game_theme.tres" id="2_haeiw"]
 [ext_resource type="Script" uid="uid://n3ik1186bqpk" path="res://Hud.cs" id="2_k77ap"]
-[ext_resource type="PackedScene" uid="uid://cr8bioi1yyjhh" path="res://game_cell.tscn" id="4_b5kf5"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k77ap"]
 bg_color = Color(0.88236886, 0.431935, 0.57275295, 1)
@@ -18,14 +17,24 @@ Window/styles/embedded_unfocused_border = SubResource("StyleBoxFlat_haeiw")
 [sub_resource type="Environment" id="Environment_haeiw"]
 background_color = Color(0.20392157, 0.4627451, 0, 1)
 
-[node name="GameScene" type="Node" unique_id=193799945]
+[node name="GameScene" type="Node" unique_id=193799945 node_paths=PackedStringArray("Container", "Hud")]
 script = ExtResource("1_eqhe0")
+Container = NodePath("Control/GridContainer")
+Hud = NodePath("HUD")
 
 [node name="HUD" type="Control" parent="." unique_id=1615918739 node_paths=PackedStringArray("PlayAgainButton", "ExitButton")]
 layout_mode = 3
-anchors_preset = 0
-offset_right = 1151.0
-offset_bottom = 649.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -640.0
+offset_top = -360.0
+offset_right = 640.0
+offset_bottom = 360.0
+grow_horizontal = 2
+grow_vertical = 2
 theme = ExtResource("2_haeiw")
 script = ExtResource("2_k77ap")
 PlayAgainButton = NodePath("EndGameWindow/PlayAgainButton")
@@ -34,7 +43,7 @@ ExitButton = NodePath("EndGameWindow/ExitGameButton")
 [node name="EndGameWindow" type="Window" parent="HUD" unique_id=1046001920]
 oversampling_override = 1.0
 initial_position = 2
-size = Vector2i(400, 143)
+size = Vector2i(400, 200)
 unresizable = true
 borderless = true
 always_on_top = true
@@ -89,124 +98,41 @@ size_flags_vertical = 4
 text = "Exit Game"
 
 [node name="TurnLabel" type="Label" parent="HUD" unique_id=259699164]
-layout_mode = 0
-offset_left = 944.0
-offset_top = 575.0
-offset_right = 1152.0
-offset_bottom = 647.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.8
+anchor_top = 0.9
+anchor_right = 1.0
+anchor_bottom = 1.0
 theme_override_font_sizes/font_size = 45
 text = "X turn"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=68642314]
-position = Vector2(576.065, 325)
-
-[node name="GridContainer" type="GridContainer" parent="." unique_id=1186083041]
-offset_left = 1.0
-offset_right = 1154.0
-offset_bottom = 644.0
-theme = ExtResource("2_haeiw")
-columns = 5
-
-[node name="GameCell" parent="GridContainer" unique_id=1144619970 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell2" parent="GridContainer" unique_id=626052277 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell3" parent="GridContainer" unique_id=612107075 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell4" parent="GridContainer" unique_id=376588313 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell5" parent="GridContainer" unique_id=2128794032 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell6" parent="GridContainer" unique_id=277218490 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell7" parent="GridContainer" unique_id=1530607880 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell8" parent="GridContainer" unique_id=11411035 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell9" parent="GridContainer" unique_id=1438749665 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell10" parent="GridContainer" unique_id=649144842 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell11" parent="GridContainer" unique_id=666592710 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell12" parent="GridContainer" unique_id=1174486816 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell13" parent="GridContainer" unique_id=1921151838 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell14" parent="GridContainer" unique_id=1275461172 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell15" parent="GridContainer" unique_id=1630395625 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell16" parent="GridContainer" unique_id=1648161804 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell17" parent="GridContainer" unique_id=743637229 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell18" parent="GridContainer" unique_id=896714639 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell19" parent="GridContainer" unique_id=799764448 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell20" parent="GridContainer" unique_id=408477948 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell21" parent="GridContainer" unique_id=406251676 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell22" parent="GridContainer" unique_id=1428717475 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell23" parent="GridContainer" unique_id=2029522937 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell24" parent="GridContainer" unique_id=77585340 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell25" parent="GridContainer" unique_id=2013771634 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell26" parent="GridContainer" unique_id=1362634779 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell27" parent="GridContainer" unique_id=1069568972 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell28" parent="GridContainer" unique_id=1697881156 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell29" parent="GridContainer" unique_id=719869697 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell30" parent="GridContainer" unique_id=1569948507 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell31" parent="GridContainer" unique_id=2092018738 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
-
-[node name="GameCell32" parent="GridContainer" unique_id=668840175 instance=ExtResource("4_b5kf5")]
-layout_mode = 2
+visible = false
+position = Vector2(640, 361)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1921994275]
 visible = false
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1969025005]
 environment = SubResource("Environment_haeiw")
+
+[node name="Control" type="Control" parent="." unique_id=1702018396]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1280.0
+offset_bottom = 720.0
+
+[node name="GridContainer" type="GridContainer" parent="Control" unique_id=1186083041]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_haeiw")
+columns = 5

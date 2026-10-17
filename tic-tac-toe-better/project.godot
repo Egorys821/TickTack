@@ -20,9 +20,19 @@ config/icon="res://icon.svg"
 Variables="*uid://heitxjj2kprs"
 GamePaths="*uid://c5vtkjmdsxsa0"
 
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/aspect="ignore"
+
 [dotnet]
 
 project/assembly_name="TicTacToeBetter"
+
+[gui]
+
+theme/default_font_multichannel_signed_distance_field=true
 
 [physics]
 

@@ -30,6 +30,8 @@ public partial class Main : Control
         //StartButton.Pressed
         StartButton.Pressed += StartButtonPressed;
         StartButton.Pressed += PrintNickNames;
+
+        DisplayServer.WindowSetMinSize(new Vector2I(1200, 720));
     }
 
     private void StartButtonPressed()
@@ -50,10 +52,9 @@ public partial class Main : Control
 
     public void PrintNickNames()
     {
-        string name1 = GetNode<LineEdit>("FirstPlayerName").Text;
-        string name2 = GetNode<LineEdit>("SecondPlayerName").Text;
+        string name1 = FirstPlayerLineEdit.Text;
+        string name2 =SecondPlayerLineEdit.Text;
 
-        GetNode<LineEdit>("FirstPlayerName").Text = "Net ne ty";
 
         GD.Print("first  player name: " + name1);
         GD.Print("second player name: " + name2);

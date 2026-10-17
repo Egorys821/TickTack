@@ -7,20 +7,19 @@ using TicTakToe;
 public sealed partial class GameScene : Node
 {
     PackedScene GameCellScene;
+
+    [Export]
     public GridContainer Container = null;
     Mediator GameMediator = null;
 
 
+    [Export]
     public Hud Hud;
 
     public override void _Ready()
     {
-
-        Container = GetNode<GridContainer>("GridContainer");
         GameCellScene = GD.Load<PackedScene>(GamePaths.GameCellPath);
-        Hud = GetNode<Hud>("HUD");
         Hud.gameScene = this;
-
 
         CreateNewGame();
     }
