@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cekun\\Documents\\TickTack\\TicTakToe\\TicTakToe\\TicTakToe.csproj": {}
+    "C:\\USERS\\CEKUN\\DOCUMENTS\\DOUCOVANI-KIRILL\\TICKTACK\\TicTakToe\\TicTakToe\\TicTakToe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cekun\\Documents\\TickTack\\TicTakToe\\TicTakToe\\TicTakToe.csproj": {
+    "C:\\USERS\\CEKUN\\DOCUMENTS\\DOUCOVANI-KIRILL\\TICKTACK\\TicTakToe\\TicTakToe\\TicTakToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cekun\\Documents\\TickTack\\TicTakToe\\TicTakToe\\TicTakToe.csproj",
+        "projectUniqueName": "C:\\USERS\\CEKUN\\DOCUMENTS\\DOUCOVANI-KIRILL\\TICKTACK\\TicTakToe\\TicTakToe\\TicTakToe.csproj",
         "projectName": "TicTakToe",
-        "projectPath": "C:\\Users\\cekun\\Documents\\TickTack\\TicTakToe\\TicTakToe\\TicTakToe.csproj",
+        "projectPath": "C:\\USERS\\CEKUN\\DOCUMENTS\\DOUCOVANI-KIRILL\\TICKTACK\\TicTakToe\\TicTakToe\\TicTakToe.csproj",
         "packagesPath": "C:\\Users\\cekun\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cekun\\Documents\\TickTack\\TicTakToe\\TicTakToe\\obj\\",
+        "outputPath": "C:\\USERS\\CEKUN\\DOCUMENTS\\DOUCOVANI-KIRILL\\TICKTACK\\TicTakToe\\TicTakToe\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,11 +26,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -45,10 +45,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "imports": [
             "net461",
@@ -66,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -62,7 +62,7 @@ namespace TicTakToe
 
                     if (game.TryMakeMove(coordinate))
                     {
-                        WinCondition wc = game.GetGameReport(coordinate).WinCondition;
+                        WinCondition wc = game.GetGameReport().WinCondition;
                         if (wc != WinCondition.UNKNOWN)
                         {
                             UpdateDisplay(game.GetGameState());

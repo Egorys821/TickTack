@@ -6,7 +6,7 @@ namespace TicTakToe;
 public class Game : ISubject
 {
     public bool IsGameDone { get; private set; } = false;
-    private FieldType[,] field;
+    public FieldType[,] field;
     public int FieldWidth => this.field.GetLength(0);
     public int FieldHeight => this.field.GetLength(1);
     public Coordinate lastPlayed { get; private set; }
@@ -19,7 +19,7 @@ public class Game : ISubject
 
     private List<IObserver> Observers = new List<IObserver>();
 
-    
+
 
     private static List<Coordinate> _WinDirections;
     static Game()
@@ -38,8 +38,10 @@ public class Game : ISubject
         return !(c.X >= FieldWidth || c.Y >= FieldHeight || c.X < 0 || c.Y < 0);
     }
 
-    public GameReport GetGameReport(Coordinate coordinate)
+    public GameReport GetGameReport()
     {
+        Coordinate coordinate = lastPlayed;
+
         foreach (Coordinate direction in _WinDirections)
         {
             var LeftSide = new Coordinate(coordinate.X, coordinate.Y);
@@ -62,7 +64,7 @@ public class Game : ISubject
                     field[RightSide.X, RightSide.Y] != CurrentPlayer.Type)
                 {
                     canGoRight = false;
-                    
+
                 }
                 else
                 {
@@ -73,7 +75,7 @@ public class Game : ISubject
                     field[LeftSide.X, LeftSide.Y] != CurrentPlayer.Type)
                 {
                     canGoLeft = false;
-                   
+
                 }
                 else
                 {
@@ -280,10 +282,16 @@ public class Game : ISubject
         // ExpandLogic
 
         if (c.X == 0)
+        {
             ExpandField(Direction.LEFT, 1);
+            lastPlayed = new Coordinate(lastPlayed.X + 1, lastPlayed.Y);
+        }
 
         if (c.Y == 0)
+        {
             ExpandField(Direction.UP, 1);
+            lastPlayed = new Coordinate(lastPlayed.X , lastPlayed.Y + 1);
+        }
 
         if (c.X == FieldWidth - 1)
             ExpandField(Direction.RIGHT, 1);
