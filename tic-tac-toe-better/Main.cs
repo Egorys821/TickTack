@@ -24,7 +24,7 @@ public partial class Main : Control
     public override void _Ready()
     {
         NodePath StartButtonPath = new NodePath("StartButton");
-       
+
         Button StartButton = GetNode<Button>(StartButtonPath);
 
         //StartButton.Pressed
@@ -53,7 +53,7 @@ public partial class Main : Control
     public void PrintNickNames()
     {
         string name1 = FirstPlayerLineEdit.Text;
-        string name2 =SecondPlayerLineEdit.Text;
+        string name2 = SecondPlayerLineEdit.Text;
 
 
         GD.Print("first  player name: " + name1);

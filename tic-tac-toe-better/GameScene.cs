@@ -34,14 +34,10 @@ public sealed partial class GameScene : Node
             .WithFixedFieldSize(Variables.FixedGameSize)
             .Build();
 
-
         GameMediator = new Mediator(Variables.Game, this);
 
         // Clear previous buttons
-        foreach (var item in Container.GetChildren())
-        {
-            item.QueueFree();
-        }
+        ClearContainer();
 
         Container.Columns = Variables.Game.FieldWidth;
 
@@ -49,7 +45,7 @@ public sealed partial class GameScene : Node
     }
 
     // Adding cells to container
-    void AddCells()
+    private void AddCells()
     {
         for (int y = 0; y < Variables.Game.FieldHeight; y++)
         {
@@ -57,6 +53,38 @@ public sealed partial class GameScene : Node
             {
                 GameCell cellInstance = GameCellScene.Instantiate<GameCell>();
                 cellInstance.Init(new Coordinate(x, y), FieldType.Empty, GameMediator);
+                Container.AddChild(cellInstance);
+            }
+        }
+    }
+
+    public void ExpandGameCells()
+    {
+        // Clear previous buttons
+        ClearContainer();
+
+        Container.Columns = Variables.Game.FieldWidth;
+
+        RemapCells();
+    }
+
+    private void ClearContainer()
+    {
+        foreach (var item in Container.GetChildren())
+        {
+            item.QueueFree();
+        }
+        
+    }
+
+    private void RemapCells()
+    {
+        for (int y = 0; y < Variables.Game.FieldHeight; y++)
+        {
+            for (int x = 0; x < Variables.Game.FieldWidth; x++)
+            {
+                GameCell cellInstance = GameCellScene.Instantiate<GameCell>();
+                cellInstance.Init(new Coordinate(x, y), Variables.Game.field[x,y], GameMediator);
                 Container.AddChild(cellInstance);
             }
         }
